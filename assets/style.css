@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* text-decoration: none; */
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -12,7 +11,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
-    height: 100%;
+   
   
 }
 .nav-bar {
@@ -20,7 +19,6 @@ body {
     background-color: rgb(51, 51, 153);
     display: flex;
     justify-content: space-around;  
-    margin-bottom: 20px;
     position: sticky;
     top: 0;
     padding: 10px;
@@ -57,24 +55,24 @@ body {
     align-items: center;
     justify-content: center;
     width: 30%;
-    /* height: 20px; */
 }
 .text, .button {
     padding: 8px;
     border-radius: 5px;
     border: none;
     margin: 5px;
-
-    /* flex-grow: 0; */
-    
 }
 
 /* Card */
+
 .card {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    height: 800px;
+  
+   
 }
 .book-card {
     background-color: rgba(197, 192, 89, 0.836);
@@ -157,8 +155,9 @@ body {
     background-color: rgb(81, 81, 207);
     display: flex;
     justify-content: space-around;  
-    /* margin-bottom: 20px; */
     padding: 10px;
+    position: relative;
+    bottom: 0;
 
 }
 .footer ul {
@@ -191,10 +190,8 @@ body {
 }
 .copyrights {
     width: auto;
-    /* height: 300px; */
     background-color: rgb(81, 81, 207);
     color: rgb(255, 255, 255);
-    /* padding: 10px; */
 }
 .copyrights span {
     display: block;
@@ -212,7 +209,6 @@ body {
     }
     .logo {
         display: block;
-        width: 100%;
     }
     .nav-list {
         display: block;
@@ -221,7 +217,6 @@ body {
         margin: 0;
         padding: 0;
         padding: 10px;
-        /* width: 100%; */
         text-align: center;
     }
     .search-bar {
@@ -240,7 +235,7 @@ body {
         padding: 0 20px;
     }
     .card {
-        width: auto;
+        width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -291,7 +286,6 @@ body {
         margin: 0;
         padding: 0;
         padding: 10px;
-        /* width: 100%; */
         text-align: center;
     }
    .nav-list2 li {
