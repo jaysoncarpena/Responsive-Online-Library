@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* Checkout Form */
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(images/harry.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+}
+.check-out-form {
+    width: 600px;
+    height: 400px;
+    background-color: rgba(230, 228, 228, 0.87);
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    padding: 15px;
+    font-size: 15px;
+}
+.payment-information {
+    padding: 10px;
+    width: 50%;
+}
+.address {
+    display: flex;
+    margin: 10px 10px 10px 0;
+}
+#building-number, #barangay, #city, #province {
+    width: 100px;
+    margin: 10px 10px 10px 0;
+}
+.price-list {
+    padding: 10px;
+    width: 50%;
+}
+.total-price {
+    font-weight: bolder;
+}
+.checkout-cart {
+    height: 160px;
+}
+.cart-box {
+    width: 280px;
+    height: 200px;
+    font-size: 17px;
+    padding: 18px;
+}
+.cart-name, .total span {
+    font-weight: 900;
+}
+
+.cart, .prisoner-of-azkaban, .philosopher-stone, .chambers-of-secret, .deathly-hallows, .total {
+    display: flex;
+    justify-content: space-between;
+}
+.cart-box a{
+    width: 200px;
+    padding-right: 200px;
+    
+}
+.checkout-button {
+    padding: 5px;
+    width: 300px;
+}
+.checkout-buttons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+} 
+span {
+    display: block;
+}
+
+@media (max-width: 700px){ 
+    .form {
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+    }
+    .check-out-form {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: none;
+        height: 750px;
+
+    }
+    .payment-information {
+        margin: 10px auto;
+        height: 450px;
+        width: 430px;
+        padding: 10px;
+        font-size: 20px;
+
+    }
+    
+    .price-list {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 400px;
+    }
+    .checkout-cart {
+        width: 500px;
+        height: 380px;
+        margin: 20px;
+    }
+    .cart-box {
+        width: 450px;
+        height: 280px;
+        margin: 5px 20px
+    }
+    .cart, .prisoner-of-azkaban, .philosopher-stone, .chambers-of-secret, .deathly-hallows, .total {
+        padding: 10px;
+        
+    }
+
+}
+    
