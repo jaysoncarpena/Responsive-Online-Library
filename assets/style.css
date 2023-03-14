@@ -10,7 +10,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    width: 100%;
+    width: 100%; 
    
   
 }
@@ -27,21 +27,19 @@ body {
 .logo {
     color: rgb(255, 255, 255);
     font-size: 35px;
-    padding: 0 50px;
+    padding: 15px;
     font-weight: bold;
-    width: 30%;
 }
 .nav-bar ul {
     display: flex;
     align-items: center;
     margin-right: 20px;
-    width: 40%;
     padding: 0;
 
 }
 .nav-bar ul li {  
     list-style: none;
-    margin: 0 5px;
+    margin: 0 20px;
 }
 .nav-bar ul li a{
     color: rgb(255, 255, 255);
@@ -54,7 +52,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30%;
 }
 .text, .button {
     padding: 8px;
@@ -67,18 +64,16 @@ body {
 
 .card {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     height: 800px;
-  
    
 }
 .book-card {
     background-color: rgba(197, 192, 89, 0.836);
     width: 330px;
     height: 200px;
-    margin: 10px;
     display: flex;
     border-style: outset;
     border-radius: 10px;
@@ -200,6 +195,8 @@ body {
     padding-bottom: 20px;
 }
 
+
+
 @media (max-width: 800px) {
     .nav-bar, section, footer {
         display: flex;
@@ -241,25 +238,29 @@ body {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+
     }
     .book-card {
         height: 630px;
         width: 500px;
         flex-direction: column;
+        margin: 30px 0 0 0;
     }
     .container-image {
-        height: 400px;
+        height: 310px;
     }
     .container-image img {
-        width: 200px;
+        width: 250px;
         height: 300px;
         margin-top: 10px;
     }
     
     .book-description {
-        font-size: 10px;
+        height: 180px;
+        /* font-size: 8px; */
         text-align: center;
         padding: 10px 5px;
+        background-color: blanchedalmond;
         
     }
     .price {
@@ -267,6 +268,7 @@ body {
         font-weight: 600;
         text-align: center;
         display: block;
+        margin: 10px;
     
     }
     .title {
@@ -275,12 +277,19 @@ body {
         font-weight: 600;
     }
     .author {
-        font-size: 20px;
+        font-size: 10px;
         display: block;
     
     }
     .description {
-        font-size: 20px;
+        font-size: 17px;
+    }
+    .cart, .wishlist {
+        font-size: 30px;
+        padding: 0;
+    }
+    .buynow {
+        font-size: 35px;
     }
     .nav-list2 {
         margin: 0;
@@ -288,7 +297,7 @@ body {
         padding: 10px;
         text-align: center;
     }
-   .nav-list2 li {
+    .nav-list2 li {
         padding:  0 45px;
         display: flex;
         justify-content: space-evenly;
