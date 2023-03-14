@@ -63,11 +63,13 @@ body {
 /* Card */
 
 .card {
+    margin: 10px auto;
+    max-width: 1350px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    height: 800px;
+    /* height: 800px; */
    
 }
 .book-card {
@@ -78,6 +80,7 @@ body {
     border-style: outset;
     border-radius: 10px;
     border-color: rgb(51, 51, 153);
+    margin: 5px;
 }
 .container-image {
     height: 100px;
@@ -233,7 +236,6 @@ body {
     }
     .card {
         width: 100%;
-        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
